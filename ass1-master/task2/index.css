@@ -1,0 +1,148 @@
+body { 
+    font-family: Arial;
+    background-color: #f0efee;
+}
+
+#border {
+    padding: 18px 70px 20px 70px;
+    width: 1283px;
+    height: 699px;
+}
+
+#shortLine { 
+    width: 32px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+h1 { 
+    font-weight: normal;
+    font-size: 34px;
+    letter-spacing: -1px;
+    word-spacing: -3px;
+    line-height: 35px;
+    margin-left: 2px;
+    margin-top: 17px;
+}
+
+.box { 
+    width: 400px;
+    height: 470px;
+    border-radius: 3px;
+    margin-right: 25px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+svg { 
+    margin: 22px;
+    width: 28px;
+    height: 28px;
+    fill: #008228;
+    position: absolute;
+    z-index: 0;
+    background-size: 125px 175px;
+} 
+
+#bottomSection { 
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.boxHeading { 
+    color: #008228;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    font-weight: 600;
+}
+.space { 
+    height: 48px;
+}
+.shadowLine { 
+    margin-top: 70px;
+    box-shadow: 0px 3px 5px #8888;
+    width: 390px;
+    border: 1px solid rgba(173, 170, 170, 0.305);
+}
+
+.infomation {
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: #888693;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+
+.smallText {
+    color: black;
+    font-weight: bold;
+}
+
+.percentage{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    font-size: 32px;
+}
+
+.topCardText { 
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+h2 {
+    font-size: 17px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    height: 80px;
+    line-height: 28px;
+}
+
+.buttonBox {
+    margin-top: 8px;
+    height: 70px;
+}
+
+.moreInfo {
+    background-color: #008228;
+    width: 225px;
+    height: 45px;
+    color: white;
+    font-size: 21px;
+    border: none;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.moreInfo:hover { 
+    background-color: #1e1e1e;
+    cursor: pointer;
+}
+
+.arrow {
+    display: inline;
+    margin-left: 5px;
+}
+
+.moreInfo:hover > .arrow {
+    margin-left: 12px;
+}

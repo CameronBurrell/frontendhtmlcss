@@ -1,0 +1,55 @@
+<!-- Cameron Burrell z5264685 Assignment 1 Task 4-->
+<!DOCTYPE html>
+<html lang="en" > 
+    <head>
+        <meta charset="utf-8" />
+        <title> Assignment01_Task04_z5264685 </title>
+        <link rel="stylesheet" href ="index.css" />
+    </head>
+    <body>
+        <table>
+            <tr> 
+                <td> FirstName </td>
+                <td> <input type="text" id="firstNameText" /> </td>
+            </tr>
+            <tr>
+                <td> LastName </td>
+                <td> <input type="text" id="lastNameText" /> </td>
+            </tr>
+            <tr>
+                <td> Date of birth </td>
+                <td> <input type="text" id="birthDate"/> </td>
+            </tr>
+            <tr>
+                <td> favourite cheese </td>
+                <td>
+                    <select id="cheeseSelecter">
+                        <option value="Haloumi" selected> Haloumi </option>
+                        <option value="Brie"> Brie </option>
+                    </select>
+                </td>
+                <tr>
+                    <td> Cities lived in </td>
+                    <!-- Adelaide, Perth, Hobart, Darwin -->
+                    <td id="citiesList"> 
+                        <input type="checkbox" name="city" value="Adelaide"> 
+                        <lable for="adelaideCheckBox"> Adelaide </lable> </br>
+                        <input type="checkbox" name="city" value="Perth"> 
+                        <lable for="perthCheckBox"> Perth </lable> </br>
+                        <input type="checkbox" name="city" value="Hobart"> 
+                        <lable for="hobartCheckBox"> Hobart </lable> </br>
+                        <input type="checkbox" name="city" value="Darwin"> 
+                        <lable for="darwinCheckBox"> Darwin </lable> </br>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+        </br>
+        <button id="removeButton"> remove </button>
+        </br>
+        </br>
+        <textarea id="outputInfo" rows="15" cols="50" ></textarea> 
+        <script src="main.js"> </script>
+    </body>
+
+</html>
